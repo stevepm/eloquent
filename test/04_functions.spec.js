@@ -18,3 +18,9 @@ describe("sum", function(){
     expect(functions.sum(functions.range(1,10))).to.eql(55);
   })
 });
+
+describe("reverseArray", function(){
+  it("reverses the order of an array", function(){
+    expect(functions.reverseArray(["A", "B", "C"])).to.eql(["C", "B", "A"]);
+  })
+})

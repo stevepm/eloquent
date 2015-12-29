@@ -24,3 +24,7 @@ exports.sum = function(range){
   }
   return sum;
 }
+
+exports.reverseArray = function(range){
+  
+}
