@@ -32,3 +32,7 @@ exports.reverseArray = function(range){
   }
   return newArray;
 };
+
+exports.reverseArrayInPlace = function(range){
+  return range.reverse();
+};

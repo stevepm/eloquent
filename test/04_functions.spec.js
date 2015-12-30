@@ -24,3 +24,9 @@ describe("reverseArray", function () {
     expect(functions.reverseArray(["A", "B", "C"])).to.eql(["C", "B", "A"]);
   });
 });
+
+describe("reverseArrayInPlace", function () {
+  it("reverses the order of an array, modifying original array", function () {
+    expect(functions.reverseArrayInPlace(["A", "B", "C"])).to.eql(["C", "B", "A"]);
+  });
+});
