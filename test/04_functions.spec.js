@@ -28,5 +28,6 @@ describe("reverseArray", function () {
 describe("reverseArrayInPlace", function () {
   it("reverses the order of an array, modifying original array", function () {
     expect(functions.reverseArrayInPlace(["A", "B", "C"])).to.eql(["C", "B", "A"]);
+    expect(functions.reverseArrayInPlace([1, 2, 3, 4, 5])).to.eql([5, 4, 3, 2, 1]);
   });
 });

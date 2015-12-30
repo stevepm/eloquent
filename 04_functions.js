@@ -34,5 +34,10 @@ exports.reverseArray = function(range){
 };
 
 exports.reverseArrayInPlace = function(range){
-  return range.reverse();
+  for (var i = 0, end = range.length - 1; i < range.length/2; i++, end--){
+    var swap = range[end];
+    range[end] = range[i];
+    range[i] = swap;
+  }
+  return range;
 };
