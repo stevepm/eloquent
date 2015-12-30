@@ -15,7 +15,7 @@ exports.range = function(start, end, countBy){
     }
   }
   return myRange;
-}
+};
 
 exports.sum = function(range){
   var sum = 0;
@@ -23,8 +23,12 @@ exports.sum = function(range){
     sum += range[i];
   }
   return sum;
-}
+};
 
 exports.reverseArray = function(range){
-  
-}
+  newArray = [];
+  for (var i = range.length-1; i >= 0; i--){
+    newArray.push(range[i]);
+  }
+  return newArray;
+};
